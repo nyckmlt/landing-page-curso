@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&display=swap');
+
+body{
+    background-color: #FAE8E0;
+    color: dimgray;
+    font-family:'poppinsregular';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    color: dimgray;
+}
+
+a:hover{
+    color:  #B6E2D3;
+    transition: 0.3s all;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'poppinsmedium' ;
+}
+
+span{
+    color: #D8A7B1;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'poppinslight';
+}
+
+.caixa2{
+    background-color: #fff;
+    display: inline-block;
+    flex-direction: column;
+    
+}
+
+img{
+    width: 300px;
+    justify-content: center;
+    align-items: center;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #D8A7B1;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: #B6E2D3;
+    transition: all 0.6s;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
